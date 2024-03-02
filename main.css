@@ -444,6 +444,33 @@
         opacity: 0;
       }
     }
+
+    /*******  credes sociales  ******/
+
+    .nav__list {        
+      list-style: none;        
+      border-radius: 50%;        
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center;
+      align-items: center;
+    }
+
+    .nav__link {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1rem;
+      /*margin: 0 2.2rem;*/
+      margin: 0 1.2rem;
+      border-radius: 50%;
+    }
+
+    .nav__link:hover {
+      opacity: 0.7;
+    } 
+
+
     /* Avoiding custom properties to ensure the animation remains on the compositor for optimal performance. */
     @keyframes to-brand {
       to {
