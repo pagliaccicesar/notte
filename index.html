@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <nav class="Navbar">
+        <div class="container">
+          <div class="Logo">notte.</div>
+  
+          <div id="menu" class="menu">
+            <header class="inline">
+              <div class="Logo">notte.</div>
+              <button
+                id="closeMenuBtn"
+                title="Close Menu"
+                aria-label="Close Menu"
+                class="NavButton"
+              >
+                <i class="ri-close-line"></i>
+              </button>
+            </header>
+  
+            <a href="#" class="NavLink">Home</a>
+            <a href="#schedules" class="NavLink">Agenda</a>
+            <a href="#sets" class="NavLink">Sets</a>
+            <a href="#about" class="NavLink">About</a>
+          </div>
+  
+          <button
+            id="openMenuBtn"
+            title="Open Menu"
+            aria-label="Open Menu"
+            class="NavButton"
+          >
+            <i class="ri-menu-line"></i>
+          </button>
+        </div>
+      </nav>
+      <main>
+        <section id="home">
+          <div class="hero">
+            <div class="visual">
+              <picture>
+                <source
+                srcset="./img/foto_night.jpg"                  
+                  type="image/avif"
+                  media="(width > 1024px)"
+                />
+                <source
+                  srcset="./img/disco2_movil.jpg"
+                  type="image/avif"
+                />
+                <source
+                  srcset="./img/foto_night.jpg"
+                  media="(width > 1024px)"
+                  type="image/webp"
+                />
+                <img
+                  src="./img/disco2_movil.jpg"
+                  alt="fitness" 
+                />
+              </picture>
+            </div>
+  
+            <div class="content">
+              <h1>Bs As disco pop</h1>
+              <div class="wrapper">
+                <a href="#discover" class="LinkButton Primary"> DISCOVER MORE </a>
+              </div>
+            </div>
+          </div>
+  
+          <div id="discover" class="fold">
+            <div class="subject">
+              <p>
+                It's a new day,
+                <span style="color: var(--brand-1)"
+                  >a new opportunity to sculpt the best version of yourself.
+                  Embrace the energy,</span
+                >
+                feel the burn, and conquer your fitness goals with unwavering
+                determination.
+              </p>
+            </div>
+          </div>
+        </section>
+  
+        <section id="schedules" class="schedule">
+          <div class="subject">
+            <div class="container">
+              <div class="table-wrapper">
+                <h2>Weekly Disco</h2>
+                <table>
+                  <tr>
+                    <th>Day</th>
+                    <th>Scheduled Exercise</th>
+                    <th>Time</th>
+                  </tr>
+                  <tr>
+                    <td>Monday</td>
+                    <td>Running</td>
+                    <td>6:00 AM</td>
+                  </tr>
+                  <tr>
+                    <td>Tuesday</td>
+                    <td>Swimming</td>
+                    <td>7:00 AM</td>
+                  </tr>
+                  <tr>
+                    <td>Wednesday</td>
+                    <td>Cycling</td>
+                    <td>6:30 AM</td>
+                  </tr>
+                  <tr>
+                    <td>Thursday</td>
+                    <td>Yoga</td>
+                    <td>6:00 AM</td>
+                  </tr>
+                  <tr>
+                    <td>Friday</td>
+                    <td>Weight Training</td>
+                    <td>8:00 AM</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="table-wrapper">
+                <h2>Weekly only Pop</h2>
+                <table>
+                  <tr>
+                    <th>Day</th>
+                    <th>Scheduled Exercise</th>
+                    <th>Time</th>
+                  </tr>
+                  <tr>
+                    <td>Monday</td>
+                    <td>Running</td>
+                    <td>6:00 AM</td>
+                  </tr>
+                  <tr>
+                    <td>Tuesday</td>
+                    <td>Swimming</td>
+                    <td>7:00 AM</td>
+                  </tr>
+                  <tr>
+                    <td>Wednesday</td>
+                    <td>Cycling</td>
+                    <td>6:30 AM</td>
+                  </tr>
+                  <tr>
+                    <td>Thursday</td>
+                    <td>Yoga</td>
+                    <td>6:00 AM</td>
+                  </tr>
+                  <tr>
+                    <td>Friday</td>
+                    <td>Weight Training</td>
+                    <td>8:00 AM</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="showcase">
+            <video
+              autoplay
+              loop
+              muted
+              poster="https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/landing-page-with-scroll-driven/assets/images/poster.webp"
+              role="none"
+            >
+                <source src="./video/set1.mp4" type="video/mp4"/>
+              <!--<source src="https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/landing-page-with-scroll-driven/assets/demo.mp4" type="video/mp4" />-->
+            </video>
+            <img src="./img/notte.png" alt="">
+            <!--<img src="https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/landing-page-with-scroll-driven/assets/images/rhythm.png" alt="Rhythm" />-->
+          </div>
+        </section>
+  
+        <section id="sets" class="cards">
+          <div class="subject">
+            <div class="container">
+              <a href="#" class="Card">
+                <i class="ri-trophy-line"></i>
+                <div>
+                  <h2>Personal Bests</h2>
+                  <ul>
+                    <li>Fastest 5K Run: 22 min</li>
+                    <br>                    
+                    <iframe width="210" height="119" src="https://www.youtube.com/embed/dhlq5A8Wu0Q?si=Mpj1HbRnqu3v5SdA&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!--<li>Heaviest Deadlift: 250 lbs</li>
+                    <li>Longest Plank: 3 min</li>-->
+                  </ul>
+                </div>
+              </a>
+              <a href="#" class="Card">
+                <i class="ri-flag-2-line"></i>
+                <div>
+                  <h2>Challenges</h2>
+                  <ul>
+                    <li>30-Day Running Streak</li>
+                    <br>
+                    <iframe width="210" height="119" src="https://www.youtube.com/embed/dhlq5A8Wu0Q?si=Mpj1HbRnqu3v5SdA&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!--<li>1000 Pushups in a Month</li>
+                    <li>Swim 20km in a Month</li>-->
+                  </ul>
+                </div>
+              </a>
+
+              <a href="#" class="Card">
+                <i class="ri-team-line"></i>
+                <div>
+                  <h2>Friends Activity</h2>
+                  <ul>
+                    <li>Jane just set a new record in cycling: 30 miles!</li>
+                    <br>
+                    <iframe width="210" height="119" src="https://www.youtube.com/embed/dhlq5A8Wu0Q?si=Mpj1HbRnqu3v5SdA&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!--<li>Mike completed the 30-Day Running Streak Challenge!</li>
+                    <li>Anna shared a new workout: 'Hill Sprints Interval'.</li>-->
+                  </ul>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+  
+        <section id="about" class="about">
+          <div id="target-word">love</div>
+          <footer>
+            <p>
+              CodePen's homage to CSS Zen Garden, built by
+              <a
+                href="https://codepen.io/mobalti"
+                style="color: var(--brand-1); text-decoration: none"
+                >Cesar Pagliacci</a
+              >
+              using Open Props.
+            </p>
+          </footer>
+        </section>
+      </main>
+     
+
+
+
+
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
