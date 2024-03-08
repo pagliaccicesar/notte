@@ -120,3 +120,5 @@ function textReplace(words, targetElement, rate) {
 
   const interval = setInterval(changeWordWithAnimation, rate);
 }
+
+
