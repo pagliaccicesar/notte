@@ -204,6 +204,9 @@
       color: var(--brand-1);
       text-transform: uppercase;
     }
+    /*& td {
+      font-size: 0.9rem;
+    }*/
 
     & table {
       border: 3px solid var(--surface-1);
@@ -227,6 +230,7 @@
         gap: var(--size-10);
       }
     }
+   
   }
 
   .showcase {
